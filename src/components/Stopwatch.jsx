@@ -145,7 +145,7 @@ const Stopwatch = () => {
         <button
           style={{
             ...styles.button,
-            backgroundColor: isRunning ? "#dc3545" : "#d3d3d3", // Red for active pause
+            backgroundColor: isRunning ? "green" : "#d3d3d3", // Red for active pause
             cursor: isRunning ? "pointer" : "not-allowed",
           }}
           onClick={handlePause}
